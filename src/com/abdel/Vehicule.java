@@ -1,14 +1,14 @@
 package com.abdel;
 
-public abstract class Vehicul {
+public abstract class Vehicule {
 
     private String nom;
     private int nombreDeRoues;
 
-    public Vehicul() {
+    public Vehicule() {
     }
 
-    public Vehicul(String nom, int nombreDeRoues) {
+    public Vehicule(String nom, int nombreDeRoues) {
         this.nom = nom;
         this.nombreDeRoues = nombreDeRoues;
     }
